@@ -23,7 +23,7 @@ United States Economy Data Analysis Program
 
 <h3>프로젝트 설계도</h3>
 StarUml class diagram으로 작성했다.
-<img src =''>
+[<img src =''>](https://github.com/catree42/U.S.EDAP/issues/1#issue-2404563837)
 
 
 
