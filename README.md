@@ -27,11 +27,12 @@ StarUml class diagram으로 작성했다.
 ![classDiagram_EDAP](https://github.com/user-attachments/assets/45408e6a-6bed-46ef-b322-6d9b732f1227)  
 
 <h3>클래스 구조</h3>
-1. Crawler : 각 경제지표 데이터를 웹사이트에서 크롤링하고 Csv 파일로 저장, 전처리된 데이터를 pandas DataFrame으로 만들어 반환하는 클래스 
-  1.1 setDataFrame() : 전처리 필수!!(날짜 형식 등)
-2. News_wordCloud_maker : 뉴스 크롤러를 통해 크롤링 데이터를 가져오고 원하는 기간을 입력받아 해당하는 기간 동안의 기사 제목을 키워드로 만들어 word cloud 이미지로 만드는 클래스
-3. Main : Crawler, wordCloud_maker 클래스의 객체들을 생성하여 작동시키는 메인 클래스  
-  3.1 make_mergedChart() : 원하는 종류의 경제지표의 DataFrame을 인자로 받아 차트로 시각화하는 함수. 가변인자로 받아 1개 이상의 경제지표를 시각화할 수 있게한다.
- 
-
-
+<ul>
+  <li>1. Crawler : 각 경제지표 데이터를 웹사이트에서 크롤링하고 Csv 파일로 저장, 전처리된 데이터를 pandas DataFrame으로 만들어 반환하는 클래스
+    <li>  1.1 setDataFrame() : 전처리 필수!!(날짜 형식 등)</li>
+  </li>
+  <li>2. News_wordCloud_maker : 뉴스 크롤러를 통해 크롤링 데이터를 가져오고 원하는 기간을 입력받아 해당하는 기간 동안의 기사 제목을 키워드로 만들어 word cloud 이미지로 만드는 클래스</li>
+  <li>3. Main : Crawler, wordCloud_maker 클래스의 객체들을 생성하여 작동시키는 메인 클래스  
+    <li>  3.1 make_mergedChart() : 원하는 종류의 경제지표의 DataFrame을 인자로 받아 차트로 시각화하는 함수. 가변인자로 받아 1개 이상의 경제지표를 시각화할 수 있게한다.</li>
+  </li>
+</ul>
