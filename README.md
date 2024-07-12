@@ -22,8 +22,9 @@ United States Economy Data Analysis Program
   4. 데이터 시각화 :
 
 <h3>프로젝트 설계도</h3>
-StarUml class diagram으로 작성했다.
-<img width="500" height="500" scr = "https://github.com/catree42/U.S.EDAP/blob/main/classDiagram_EDAP.png?raw=true"/>
+StarUml class diagram으로 작성했다.  
+
+![classDiagram_EDAP](https://github.com/user-attachments/assets/45408e6a-6bed-46ef-b322-6d9b732f1227)
 
 
 
